@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <LinearLayout
+        style="@style/MatchWrap"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            tools:src="@android:color/darker_gray"/>
+        <LinearLayout
+            style="@style/MatchWrap"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/MatchWrap"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:text="@string/nama"/>
+                <TextView
+                    android:id="@+id/lang_name"
+                    style="@style/WrapWrap.black"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/nama_bahasa"/>
+            </LinearLayout>
+            <LinearLayout
+                style="@style/MatchWrap"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:text="@string/developer"/>
+                <TextView
+                    android:id="@+id/lang_developer"
+                    style="@style/WrapWrap.black"
+                    android:layout_marginStart="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
