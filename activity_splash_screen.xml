@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/blue_dark"
+    tools:context=".SplashScreen">
+
+    <LinearLayout
+        style="@style/WrapWrap"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/WrapWrap.splash"
+            android:text="K"/>
+        <TextView
+            style="@style/WrapWrap.splash"
+            android:text="N"/>
+        <TextView
+            style="@style/WrapWrap.splash"
+            android:text="O"/>
+        <TextView
+            style="@style/WrapWrap.splash"
+            android:text="W"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/WrapWrap"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/WrapWrap.splash"
+            android:text="Y"/>
+        <TextView
+            style="@style/WrapWrap.splash"
+            android:text="O"/>
+        <TextView
+            style="@style/WrapWrap.splash"
+            android:text="U"/>
+        <TextView
+            style="@style/WrapWrap.splash"
+            android:text="R"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/WrapWrap"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/WrapWrap.splash"
+            android:text="L"/>
+        <TextView
+            style="@style/WrapWrap.splash"
+            android:text="A"/>
+        <TextView
+            style="@style/WrapWrap.splash"
+            android:text="N"/>
+        <TextView
+            style="@style/WrapWrap.splash"
+            android:text="G"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/WrapWrap"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/WrapWrap.splash"
+            android:text="U"/>
+        <TextView
+            style="@style/WrapWrap.splash"
+            android:text="A"/>
+        <TextView
+            style="@style/WrapWrap.splash"
+            android:text="G"/>
+        <TextView
+            style="@style/WrapWrap.splash"
+            android:text="E"/>
+    </LinearLayout>
+
+</LinearLayout>
